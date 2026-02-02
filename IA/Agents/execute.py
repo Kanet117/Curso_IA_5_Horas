@@ -4,8 +4,6 @@ from tools import tools
 
 client = OpenAI()
 
-
-
 def get_horoscope(sign):
     return f"{sign}: Next Tuesday you will befriend a baby otter."
 
