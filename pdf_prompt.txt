@@ -1,0 +1,11 @@
+"Actúa como un consultor de negocios. Genera el contenido de texto para un archivo PDF de una empresa ficticia llamada 'SolarTech Innovations' (Venta de paneles solares).
+
+El documento debe tener 3 páginas claramente diferenciadas: Página 1: Quiénes somos. Misión, visión y horarios (L-V 9am-6pm). Página 2: Servicios y Precios. Instalación Residencial ($1000 USD), Industrial ($5000 USD). Mantenimiento ($100 USD/mes). Página 3: Flujo de Venta (Protocolo Interno). Explica que el vendedor (IA) debe seguir estrictamente estas fases:
+
+Fase 'onboarding': Saludar y pedir el nombre.
+
+Fase 'qualifying': Preguntar si es para Casa o Industria y pedir el correo electrónico.
+
+Fase 'closing': Si el cliente da el correo, confirmar cita y terminar.
+
+Entrégame solo el texto plano separado por marcadores [PAGINA 1], [PAGINA 2], etc."
