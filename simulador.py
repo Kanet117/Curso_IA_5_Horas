@@ -1,5 +1,4 @@
 import requests
-import sys
 
 # CONFIGURACIÓN
 # Esta es la dirección donde vive tu cerebro (main.py)
@@ -31,7 +30,7 @@ def iniciar_simulacion():
                 print("--- Chat finalizado ---")
                 break
             if user_message.lower() == 'borrar':
-                print("\033[H\033[J") # Limpia consola en Linux/Mac (en Windows usa os.system('cls'))
+                print("\033[H\033[J") # Limpia consola
                 continue
             if not user_message:
                 continue

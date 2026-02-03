@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+openai
+sqlalchemy
+psycopg2-binary
+pydantic
+qdrant-client
+python-dotenv
+fastembed
+pypdf
+numpy
+requests
