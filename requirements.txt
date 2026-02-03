@@ -5,3 +5,6 @@ sqlalchemy
 pydantic
 qdrant-client
 python-dotenv
+fastembed 
+pypdf
+numpy
