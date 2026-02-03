@@ -80,8 +80,7 @@ class Qdrant:
         chunks = Qdrant.chunks_with_overlap(full_text)
         print(f" -> Se generaron {len(chunks)} fragmentos.")
 
-        # 3. Embeddings (en lote es mas rápido que uno por uno)
-        # Aquí convertimos todo el generador a lista directamente
+        # 3. Embeddings 
         embeddings = list(Qdrant.embedding_model.embed(chunks))
 
         # 4. Subir
